@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Unica+One:regular);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #150E28;
+}
+
+@layer base {
+  html {
+    font-family: Montserrat, system-ui, sans-serif;
+  }
+}
+/* gradient for hero section */
+.hero_gradient {
+  background: radial-gradient(circle at 20% 55%, #1E1152, #150E28, #150E28);
+}
+
+
+/* gradient for service section */
+.service_gradient {
+  background: radial-gradient(circle at 80% 50%, #1E1152, #150E28, #150E28);
+}
+
+
+/* gradient for faqs section */
+.faqs_gradient {
+  background: radial-gradient(circle at 20% 55%, #1E1152, #150E28, #150E28);
+}
+
+/* gradient for footer section */
+.footer_gradient {
+  background: radial-gradient(circle at 80% 50%, #1E1152, #150E28, #150E28);
+}
+
+/* styling the border and box effect of the progress bar */
+.progress-bar {
+  width: 70px;
+  height: 4px;
+  border: 1px solid #48494a;
+  background-color: #48494a;
+  border-radius: 5px;
+}
+
+
+/* styling the background color of border
+radius */ 
+.percentage {
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: #d4d6d9;
+  border-radius: 5px;
+}
+
+.slider {
+  opacity: 0;
+}
+
+/* styling the animation */ 
+.progress-bar:nth-child(1) .percentage {
+  animation: progress 8s ease-in 0s;
+}
+
+/* styling the animation */ 
+.progress-bar:nth-child(2) .percentage {
+  animation: progress 9s ease-in 8s;
+}
+
+/* styling the animation */ 
+.progress-bar:nth-child(3) .percentage {
+  animation: progress 9.2s ease-in 16.5s;
+}
+
+/* styling the animation */ 
+.progress-bar:nth-child(4) .percentage {
+  animation: progress 9s ease-in 25.5s;
+}
+
+/* styling the animation */ 
+.progress-bar:nth-child(5) .percentage {
+  animation: progress 9s ease-in 33.9s;
+}
+
+.progress-bar:nth-child(6) .percentage {
+  animation: progress 9s ease-in 42.9s;
+}
+
+.ui:nth-child(1) .slider {
+  animation-name: fadeOut; /* Use the defined keyframes */
+  animation-duration: 15s; /* Duration of the animation */
+  animation-fill-mode: forwards;
+  animation-delay: 0.1s;
+}
+
+.ui:nth-child(2) .slider {
+  animation-name: fadeOut; /* Use the defined keyframes */
+  animation-duration: 15s; /* Duration of the animation */
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+}
+
+/* Animating the progess bar by intially starting from 0 */ 
+@keyframes progress {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes fadeOut {
+  from {
+      opacity: 2;
+  }
+  to {
+      opacity: 0;
+  }
+}
+
+/* place content on hero image */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+
+.overlayy {
+  filter: blur(10px);
+}
+
+
+
+@keyframes addBorder {
+  from {
+    border: none;
+  }
+  to {
+    border: 1px solid rgb(195 152 73 / var(--tw-text-opacity));
+  }
+}
+
+.button_circle {
+  padding: 8px 6px;
+  margin-right: -5px;
+  animation: addBorder 0.5s linear forwards;
+}
