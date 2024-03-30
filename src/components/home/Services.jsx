@@ -90,7 +90,7 @@ export default function Services () {
                 <div className='absolute rounded-full w-8 h-8'>
                     <div className="absolute right-12 top-1 rounded-full bg-orange w-6 h-6">{ index + 1 }</div>
                 </div>
-                <div className='relative text-left ml-6 text-orange mt-6 font-mono font-bold'>
+                <div className='relative text-left ml-[15px] text-orange mt-6 font-mono font-bold'>
                     {service.title}
                     <p className='text-white font-light text-[12px]'>{service.subtitle}:</p>
                     <p className="text-white font-light text-[12px] ml-4">{service.heading}: </p>
@@ -151,103 +151,103 @@ export default function Services () {
                                 <div className='absolute rounded-full w-8 h-8'>
                                     <div className="absolute right-12 top-5 rounded-full bg-orange w-6 h-6">1</div>
                                 </div>
-                                <div className='relative text-left ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative text-left ml-6 text-orange mt-5 font-mono font-bold text-[24px]'>
                                     Web Creation
-                                    <p className='font-light text-white text-[12px]'>Custom Website Development::</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$250 - $2,500+</p>
-                                    <p className='font-light text-white text-[12px]'>E-commerce Website Development:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$5,000 - $50,000+ (depending on complexity)</p>    
+                                    <p className='font-light text-white text-[16px]'>Custom Website Development:</p>
+                                    <p className="text-white font-light text-[16px] ">Price Range: </p>
+                                    <p className="text-white font-light text-[16px] ">$250 - $2,500+</p>
+                                    <p className='font-light text-white text-[16px]'>E-commerce Website Development:</p>
+                                    <p className="text-white font-light text-[16px] ">Price Range: </p>
+                                    <p className="text-white font-light text-[16px] ">$5,000 - $50,000+ (depending on complexity)</p>    
                                 </div>
                                 <div className='absolute rounded-full w-8 h-8'>
                                     <div className="absolute right-12 top-5 rounded-full bg-orange w-6 h-6">2</div>
                                 </div>
-                                <div className='relative invisible text-left ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative invisible text-left ml-6 text-orange text-[24px] mt-5 font-mono font-bold'>
                                     Software Develoment
-                                    <p className='font-light text-white text-[12px]'>Custom Software Solutions:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Starting from $10,000 (varies based on project scope)</p> 
+                                    <p className='font-light text-white text-[16px]'>Custom Software Solutions:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[12px]">Starting from $10,000 (varies based on project scope)</p> 
                                 </div>
                                 <div className='absolute rounded-full w-8 h-8'>
                                     <div className="absolute right-12 top-5 rounded-full bg-orange w-6 h-6">3</div>
                                 </div>
-                                <div className='relative text-left ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative text-left ml-6 text-orange mt-5 font-mono font-bold text-[24px]'>
                                     Photo/Video Editing
-                                    <p className='font-light text-white text-[12px]'>Basic Editing:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$50 - $150 per hour</p>
-                                    <p className='font-light text-white text-[12px]'>Advanced Editing:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Custom Quote (based on project requirements)</p>    
+                                    <p className='font-light text-white text-[16px]'>Basic Editing:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">$50 - $150 per hour</p>
+                                    <p className='font-light text-white text-[16px]'>Advanced Editing:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">Custom Quote (based on project requirements)</p>    
                                 </div>
                                 <div className='absolute rounded-full w-8 h-8'>
                                     <div className="absolute right-12 top-5 rounded-full bg-orange w-6 h-6">4</div>
                                 </div>
-                                <div className='relative invisible text-right ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative invisible text-right ml-6 text-orange mt-5 font-mono font-bold text-[24px]'>
                                     Graphic Design
-                                    <p className='font-light text-white text-[12px]'>Logo Design:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$250 - $2,500+</p>
-                                    <p className='font-light text-white text-[12px]'>Graphic Design Services:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$50 - $150 per hour</p>    
+                                    <p className='font-light text-white text-[16px]'>Logo Design:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">$250 - $2,500+</p>
+                                    <p className='font-light text-white text-[16px]'>Graphic Design Services:</p>
+                                    <p className="text-white font-light text-[12px]">Price Range: </p>
+                                    <p className="text-white font-light text-[12px]">$50 - $150 per hour</p>    
                                 </div>
                                 <div className='absolute rounded-full w-8 h-8'>
                                     <div className="absolute right-12 top-5 rounded-full bg-orange w-6 h-6">5</div>
                                 </div>
                                 <div className='relative text-left ml-6 text-orange mt-5 font-mono font-bold'>
                                     Market Research & Analytics
-                                    <p className='font-light text-white text-[12px]'>Data Analysis and Insight:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Custom Quote (based on project requirements)</p>
-                                    <p className='font-light text-white text-[12px]'>Market Research Reports:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Custom Quote (depending on the depth and scope)</p>    
+                                    <p className='font-light text-white text-[16px]'>Data Analysis and Insight:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">Custom Quote (based on project requirements)</p>
+                                    <p className='font-light text-white text-[16px]'>Market Research Reports:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">Custom Quote (depending on the depth and scope)</p>    
                                 </div>
                             </div>
                             <div className="order-first  text-center py-[5px] my-10 mx-3.5">
-                                <div className='relative invisible text-right ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative invisible text-right ml-6 text-orange mt-5 font-mono font-bold text-[24px]'>
                                         Web Creation
-                                        <p className='font-light text-white text-[12px]'>Custom Website Development::</p>
-                                        <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                        <p className="text-white font-light text-[12px] ml-8">$250 - $2,500+</p>
-                                        <p className='font-light text-white text-[12px]'>E-commerce Website Development:</p>
-                                        <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                        <p className="text-white font-light text-[12px] ml-8">$5,000 - $50,000+ (depending on complexity)</p>    
+                                        <p className='font-light text-white text-[16px]'>Custom Website Development:</p>
+                                        <p className="text-white font-lighttext-[16px]">Price Range: </p>
+                                        <p className="text-white font-light text-[16px]">$250 - $2,500+</p>
+                                        <p className='font-light text-white text-[16px]'>E-commerce Website Development:</p>
+                                        <p className="text-white font-light text-[16px]">Price Range: </p>
+                                        <p className="text-white font-light text-[16px]">$5,000 - $50,000+ (depending on complexity)</p>    
                                 </div>
-                                <div className='relative text-left ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative text-right ml-6 text-orange mt-1 font-mono font-bold text-[24px]'>
                                     Software Develoment
-                                    <p className='font-light text-white text-[12px]'>Custom Software Solutions:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Starting from $10,000 (varies based on project scope)</p> 
+                                    <p className='font-light text-white text-[16px]'>Custom Software Solutions:</p>
+                                    <p className="text-white text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">Starting from $10,000 (varies based on project scope)</p> 
                                 </div>
-                                <div className='relative invisible text-right ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative invisible text-right ml-6 text-orange mt-5 text-[24px] font-mono font-bold'>
                                     Photo/Video Editing
-                                    <p className='font-light text-white text-[12px]'>Basic Editing:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$50 - $150 per hour</p>
-                                    <p className='font-light text-white text-[12px]'>Advanced Editing:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Custom Quote (based on project requirements)</p>    
+                                    <p className='font-light text-white text-[16px]'>Basic Editing:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">$50 - $150 per hour</p>
+                                    <p className='font-light text-white text-[16px]'>Advanced Editing:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">Custom Quote (based on project requirements)</p>    
                                 </div>
-                                <div className='relative text-left ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative text-right ml-6 text-orange mt-5 font-mono font-bold text-[24px]'>
                                     Graphic Design
-                                    <p className='font-light text-white text-[12px]'>Logo Design:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$250 - $2,500+</p>
-                                    <p className='font-light text-white text-[12px]'>Graphic Design Services:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">$50 - $150 per hour</p>    
+                                    <p className='font-light text-white text-[16px]'>Logo Design:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">$250 - $2,500+</p>
+                                    <p className='font-light text-white text-[16px]'>Graphic Design Services:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">$50 - $150 per hour</p>    
                                 </div>
-                                <div className='relative invisible text-left ml-6 text-orange mt-5 font-mono font-bold'>
+                                <div className='relative invisible text-left ml-6 text-orange mt-5 font-mono font-bold text-[24px]'>
                                     Market Research & Analytics
-                                    <p className='font-light text-white text-[12px]'>Data Analysis and Insight:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Custom Quote (based on project requirements)</p>
-                                    <p className='font-light text-white text-[12px]'>Market Research Reports:</p>
-                                    <p className="text-white font-light text-[12px] ml-4">Price Range: </p>
-                                    <p className="text-white font-light text-[12px] ml-8">Custom Quote (depending on the depth and scope)</p>    
+                                    <p className='font-light text-white text-[16px]'>Data Analysis and Insight:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">Custom Quote (based on project requirements)</p>
+                                    <p className='font-light text-white text-[16px]'>Market Research Reports:</p>
+                                    <p className="text-white font-light text-[16px]">Price Range: </p>
+                                    <p className="text-white font-light text-[16px]">Custom Quote (depending on the depth and scope)</p>    
                                 </div>
                             </div>
                             <div className="text-center border-l-4 border-orange py-[5px] my-10 mx-3.5">

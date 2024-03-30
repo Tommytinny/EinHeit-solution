@@ -10,7 +10,7 @@ import 'react-slideshow-image/dist/styles.css'
     justifyContent: 'left',
     backgroundSize: 'cover',
     width: '100%',
-    height: '400px',
+    height: '600px',
     marginTop: '62px'
   }
 
